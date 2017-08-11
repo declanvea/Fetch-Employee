@@ -1,29 +1,37 @@
 body {
-  margin: 100px;
+  margin: 25px;
 }
-#search {
-  margin-bottom: 30px;
-  width: 200px;
-  height: 30px;
-  border: solid 1px;
-  border-color: black;
+h1 {
+  text-align: center;
 }
-#submit {
-  height: 30px;
-  width: 50px;
+.searchArea {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
 }
 .container {
-  margin-top: 30px;
-}
-tr {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-td {
+div {
+  border: solid 2px;
   width: 150px;
   height: 150px;
-  border: solid 1px;
-  margin: 20px;
+  font-size: 12px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5px;
+}
+select {
+  background-color: silver;
+  margin-right: 5px;
+  width: 180px;
+}
+button {
+  background-color: black;
+  color: white;
 }
